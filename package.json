@@ -1,0 +1,39 @@
+{
+  "name": "objectid-generator-server",
+  "version": "1.0.0",
+  "description": "A simple server for objectid generator app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon server.js",
+    "test": "NODE_ENV=test mocha --recursive --timeout 15000000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hivaids2512/ObjectId-generator-server"
+  },
+  "author": "Quy Vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hivaids2512/ObjectId-generator-server/issues"
+  },
+  "homepage": "https://github.com/hivaids2512/ObjectId-generator-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^7.4.2",
+    "mocha": "^3.5.0",
+    "mongoose": "^4.11.7",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^2.1.0",
+    "request": "^2.81.0",
+    "winston": "^2.3.1"
+  }
+}
